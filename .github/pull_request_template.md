@@ -1,9 +1,12 @@
-## Issue number
-- close #
+## 🔗 Issue Number
+- close #{이슈번호}
 
-## Check List
-- [ ] 테스트 통과 확인
-- [ ] 모든 commit이 push 확인
-- [ ] merge branch 확인
+## 📝 작업 내역
 
-## (Optional) Additional Description
+- 내용
+- 내용
+
+## 💡 PR 특이사항
+
+- 특이사항
+- 특이사항
