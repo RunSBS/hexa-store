@@ -1,15 +1,11 @@
 package com.git.prac.store.adapter.in;
 
-import com.git.prac.store.domain.entity.Store;
+import com.git.prac.store.application.port.in.StoreCreateCommand;
 
 public record StoreCreateRequest(
-        Long storeId,
         String name
 ) {
-    public static StoreCreateRequest from(Store store) {
-        return new StoreCreateRequest(
-                store.getId(),
-                store.getName()
-        );
+    public StoreCreateCommand toCommand() {
+        return new StoreCreateCommand(name);
     }
 }

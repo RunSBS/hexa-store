@@ -1,7 +1,8 @@
 package com.git.prac.store.adapter.in;
 
+import com.git.prac.store.application.port.in.StoreCreateCommand;
+import com.git.prac.store.application.port.in.StoreCreateResponse;
 import com.git.prac.store.application.port.in.StoreUseCase;
-import com.git.prac.store.domain.entity.Store;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,7 +17,10 @@ public class StoreController {
     private final StoreUseCase storeUseCase;
 
     @PostMapping()
-    public Long createStore(@RequestBody Store store) {
-        return 1L;
+    public ResponseEntity<StoreWebResponse> createStore(@RequestBody StoreCreateRequest request) {
+        StoreCreateCommand command = request.toCommand();
+
+        StoreCreateResponse response = storeUseCase.createStore(command);
+        return ResponseEntity.ok(StoreWebResponse.from(response));
     }
 }
