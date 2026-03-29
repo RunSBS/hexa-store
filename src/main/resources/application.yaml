@@ -21,8 +21,8 @@ spring:
       hibernate:
         show_sql: true
         format_sql: true
-      # 방언(Dialect)을 H2로 변경
-      database-platform: org.hibernate.dialect.H2Dialect
+        # 방언(Dialect)을 H2로 변경
+        dialect: org.hibernate.dialect.H2Dialect
 
   liquibase:
     enabled: true
