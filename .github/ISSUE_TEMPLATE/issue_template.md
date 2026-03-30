@@ -1,6 +1,6 @@
 ---
 name: 'Issue'
-about: 'Issue for basic template'
+about: '이슈 템플릿'
 title: '[Issue] '
 ---
 
@@ -10,11 +10,10 @@ title: '[Issue] '
 ## 📄 설명
 - 
 
-
 ## ✅ TODO
 - [ ] 
 - [ ] 
 
 ## 🙋🏻 참고 자료
-
+- 
 > 관련 문서나 참고 링크가 있다면 적어주세요.
