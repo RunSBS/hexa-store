@@ -1,7 +1,7 @@
 ---
 name: 'Issue'
 about: '이슈 템플릿'
-title: '[] '
+title: '['
 ---
 
 ## 📝 Issue 내용 요약
