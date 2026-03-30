@@ -1,7 +1,7 @@
 ---
 name: 'issue'
 about: 'issue for description'
-title: ""
+title: "ISSUE "
 ---
 
 ## 📝 Issue 내용 요약
