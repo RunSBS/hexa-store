@@ -1,6 +1,7 @@
 ---
-name: ''
-about: ''
+name: 'Issue'
+about: 'Issue for basic template'
+title: '[Issue] '
 ---
 
 ## 📝 Issue 내용 요약
